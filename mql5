@@ -1,0 +1,120 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                            AW RVI Based MT5.mq5 |
+//|                          Copyright 2022, Forex Robot Easy Team   |
+//|                                    https://www.forexroboteasy.com |
+//+------------------------------------------------------------------+
+#property copyright 'Copyright 2022, Forex Robot Easy Team'
+#property link      'https://www.forexroboteasy.com'
+
+//+------------------------------------------------------------------+
+//|                    Expert initialization function                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+   // Add initialization code here
+   return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//|             Expert deinitialization function                      |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+   // Add deinitialization code here
+}
+
+//+------------------------------------------------------------------+
+//|                  Expert tick function                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+   // Add trading logic using Relative Vigor Index (RVI) oscillator signals here
+}
+
+//+------------------------------------------------------------------+
+//|                        Trailing stop function                     |
+//+------------------------------------------------------------------+
+void TrailingStop()
+{
+   // Add code for implementing adjustable trailing system here
+}
+
+//+------------------------------------------------------------------+
+//|                    Customizable oscillator signals                |
+//+------------------------------------------------------------------+
+void CustomOscillatorSignals()
+{
+   // Add code for customizable oscillator signals here
+}
+
+//+------------------------------------------------------------------+
+//|                    Risk management system                         |
+//+------------------------------------------------------------------+
+void RiskManagement()
+{
+   // Add code for automatic risk management calculation system here
+}
+
+//+------------------------------------------------------------------+
+//|                        Additional functions                       |
+//+------------------------------------------------------------------+
+// Add additional functions as required
+
+//+------------------------------------------------------------------+
+//|                      Expert Advisor Parameters                    |
+//+------------------------------------------------------------------+
+// Define any necessary input parameters for the Expert Advisor here
+
+//+------------------------------------------------------------------+
+//|                    Expert Advisor Settings                         |
+//+------------------------------------------------------------------+
+// Define any necessary settings for the Expert Advisor here
+
+//+------------------------------------------------------------------+
+//|                     Expert Advisor Test Function                   |
+//+------------------------------------------------------------------+
+void TestEA()
+{
+   // Add code for testing the Expert Advisor here
+}
+
+//+------------------------------------------------------------------+
+//|                     Expert Advisor Debug Function                  |
+//+------------------------------------------------------------------+
+void DebugEA()
+{
+   // Add code for debugging the Expert Advisor here
+}
+
+//+------------------------------------------------------------------+
+//|              Expert Advisor Documentation Function                |
+//+------------------------------------------------------------------+
+void DocumentEA()
+{
+   // Add code for documenting the Expert Advisor here
+}
+
+//+------------------------------------------------------------------+
+//|                      Expert Advisor Main Function                 |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+   // Add code for main functionality of the Expert Advisor here
+}
+
+//+------------------------------------------------------------------+
+//|                   Expert Advisor Error Handling                   |
+//+------------------------------------------------------------------+
+void OnError(const int error_code, const string error_message)
+{
+   // Add code for error handling here
+}
+
+//+------------------------------------------------------------------+
+//|                 Expert Advisor Stop Function                      |
+//+------------------------------------------------------------------+
+void OnStop()
+{
+   // Add code for stopping the Expert Advisor here
+}
